@@ -37,7 +37,7 @@ int main (int argc, char** argv) {
   // Fill in dummy data for testing.
   static const char * const cmdline[8] = { "./a.out", "--name", "no-name", "--number", "1",
 			  "--frac", "0.5", "--ask"};
-  argv = (char*)cmdline;
+  argv = (char**)cmdline;
   argc = 8;
 
   ParseFlags(argc, argv);

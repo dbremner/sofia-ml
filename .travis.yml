@@ -1,4 +1,4 @@
 language: cpp
-script: make -f src/Makefile
+script: make -f /sofia-ml/src/Makefile
 compiler:
   - gcc

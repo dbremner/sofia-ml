@@ -16,6 +16,7 @@
 //
 #include <assert.h>
 #include <iostream>
+#include <stdlib.h>
 
 #include "sofia-ml-methods.h"
 

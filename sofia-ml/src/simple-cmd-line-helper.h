@@ -66,6 +66,7 @@ int main (int argc, char** argv) {
 #include <sstream>
 #include <string>
 #include <stdlib.h>
+#include <stdio.h>
 
 using std::map;
 using std::string;

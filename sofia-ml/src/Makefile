@@ -20,6 +20,8 @@ GCC= g++ -O3 -lm -Wall
 #                           Main Make Commands                                   #
 #================================================================================#
 
+all: sofia-ml all_test
+
 # Primary executable binary.
 sofia-ml:
 	$(GCC) -o sofia-ml sofia-ml.cc sofia-ml-methods.cc sf-weight-vector.cc sf-sparse-vector.cc sf-data-set.cc sf-hash-weight-vector.cc sf-hash-inline.cc
